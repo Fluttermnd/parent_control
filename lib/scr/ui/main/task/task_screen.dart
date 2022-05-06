@@ -8,6 +8,7 @@ import 'package:parent_control/scr/ui/main/task/edit_tasks_screen.dart';
 import 'package:parent_control/scr/ui/main_screen.dart';
 import 'package:parent_control/scr/utils/date.dart';
 import 'package:parent_control/scr/utils/utils.dart';
+
 class TaskScreen extends StatefulWidget {
   const TaskScreen({Key? key}) : super(key: key);
 
@@ -211,7 +212,7 @@ class _TaskScreenState extends State<TaskScreen> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(32),
                             color: _selectedDay ==
-                                _now.add(const Duration(days: 3))
+                                    _now.add(const Duration(days: 3))
                                 ? const Color(0xFF0051EE)
                                 : Colors.transparent,
                           ),
@@ -246,7 +247,7 @@ class _TaskScreenState extends State<TaskScreen> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(32),
                             color: _selectedDay ==
-                                _now.add(const Duration(days: 4))
+                                    _now.add(const Duration(days: 4))
                                 ? const Color(0xFF0051EE)
                                 : Colors.transparent,
                           ),
@@ -281,7 +282,7 @@ class _TaskScreenState extends State<TaskScreen> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(32),
                             color: _selectedDay ==
-                                _now.add(const Duration(days: 5))
+                                    _now.add(const Duration(days: 5))
                                 ? const Color(0xFF0051EE)
                                 : Colors.transparent,
                           ),
@@ -316,7 +317,7 @@ class _TaskScreenState extends State<TaskScreen> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(32),
                             color: _selectedDay ==
-                                _now.add(const Duration(days: 6))
+                                    _now.add(const Duration(days: 6))
                                 ? const Color(0xFF0051EE)
                                 : Colors.transparent,
                           ),
@@ -353,8 +354,8 @@ class _TaskScreenState extends State<TaskScreen> {
               ),
               child: Center(
                 child: Text(
-                  Month().getMonthFormat(_selectedDay.month) + " ${_selectedDay.day}, ${_selectedDay.year}",
-
+                  Month().getMonthFormat(_selectedDay.month) +
+                      " ${_selectedDay.day}, ${_selectedDay.year}",
                   style: const TextStyle(
                     fontStyle: FontStyle.normal,
                     fontWeight: FontWeight.w500,
@@ -414,7 +415,7 @@ class _TaskScreenState extends State<TaskScreen> {
                                     ),
                                   ),
                                 ),
-                                 const Text(
+                                const Text(
                                   "",
                                   style: TextStyle(
                                     fontStyle: FontStyle.normal,

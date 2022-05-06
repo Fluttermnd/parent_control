@@ -96,9 +96,13 @@ class _AlertsScreenState extends State<AlertsScreen> {
                                   ),
                                 ),
                               ),
-                              SvgPicture.asset("assets/icons/dislike.svg"),
+                              SvgPicture.asset(
+                                "assets/icons/dislike.svg",
+                              ),
                               const SizedBox(width: 16),
-                              SvgPicture.asset("assets/icons/like.svg"),
+                              SvgPicture.asset(
+                                "assets/icons/like.svg",
+                              ),
                               const SizedBox(width: 16),
                             ],
                           ),

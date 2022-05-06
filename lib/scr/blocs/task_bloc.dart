@@ -1,7 +1,6 @@
+import 'package:parent_control/scr/database/database_helper.dart';
+import 'package:parent_control/scr/model/task_model.dart';
 import 'package:rxdart/rxdart.dart';
-
-import '../database/database_helper.dart';
-import '../model/task_model.dart';
 
 class TaskBloc {
   final DatabaseHelper _databaseHelper = DatabaseHelper();

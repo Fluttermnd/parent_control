@@ -1,7 +1,6 @@
+import 'package:parent_control/scr/database/database_helper.dart';
+import 'package:parent_control/scr/model/user_model.dart';
 import 'package:rxdart/rxdart.dart';
-
-import '../database/database_helper.dart';
-import '../model/user_model.dart';
 
 class UserBloc {
   final DatabaseHelper _databaseHelper = DatabaseHelper();

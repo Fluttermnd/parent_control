@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:parent_control/scr/blocs/service_bloc.dart';
 import 'package:parent_control/scr/database/database_helper.dart';
+import 'package:parent_control/scr/model/add_service_model.dart';
 import 'package:parent_control/scr/ui/main_screen.dart';
 import 'package:parent_control/scr/utils/add_service_name.dart';
 import 'package:parent_control/scr/utils/add_service_type.dart';
-
-import '../../../model/add_service_model.dart';
 
 class AddServiceScreen extends StatefulWidget {
   const AddServiceScreen({Key? key}) : super(key: key);
